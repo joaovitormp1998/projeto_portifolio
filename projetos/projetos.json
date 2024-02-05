@@ -1,0 +1,326 @@
+[
+  {
+    "name": "NotyStack Android",
+    "desc": "Aplicativo CRUD Android totalmente funcional baseado em diferentes padrões de design. Construído usando Java, XML, SQLite, Firebase, RoomDB, MVVM.",
+    "image": "notystackandroid",
+    "category": "android",
+    "links": {
+      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
+      "code": "https://github.com/jigar-sable/notystack-android"
+    }
+  },
+  {
+    "name": "SPPU Engg Prep",
+    "desc": "Todos os recursos de engenharia da SPPU em um só lugar. Construído usando Java, XML e Firebase.",
+    "image": "sppuprepandroid",
+    "category": "android",
+    "links": {
+      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
+      "code": "https://github.com/jigar-sable/sppu-prep-android"
+    }
+  },
+  {
+    "name": "NewsBox Android",
+    "desc": "Aplicativo nativo para Android construído em Java e XML. Dependências Retrofit & Glide. Fornece notícias de diferentes categorias.",
+    "image": "newsboxandroid",
+    "category": "android",
+    "links": {
+      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
+      "code": "https://github.com/jigar-sable/newsbox-android"
+    }
+  },
+  {
+    "name": "Weatherly Android",
+    "desc": "Aplicativo nativo para Android construído em Java, XML e com dependências do Volley. Fornece previsão do tempo.",
+    "image": "weatherlyandroid",
+    "category": "android",
+    "links": {
+      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
+      "code": "https://github.com/jigar-sable/weatherly-android"
+    }
+  },
+  {
+    "name": "Instagram MERN",
+    "desc": "Clone completo do Instagram construído usando pilha MERN e chat em tempo real com a ajuda do socket.iO.",
+    "image": "instagrammern",
+    "category": "mern",
+    "links": {
+      "view": "https://instagramernstack.herokuapp.com/",
+      "code": "https://github.com/jigar-sable/instagram-mern"
+    }
+  },
+  {
+    "name": "Flipkart MERN",
+    "desc": "Clone completo da Flipkart com Painel Administrativo e Gateway de Pagamento Paytm. Aplicativo web MERN, pronto para uso comercial.",
+    "image": "flipkartmern",
+    "category": "mern",
+    "links": {
+      "view": "https://flipkartwebs.herokuapp.com/",
+      "code": "https://github.com/jigar-sable/flipkart-mern"
+    }
+  },
+  {
+    "name": "ResumeGen",
+    "desc": "Gerador de currículo básico ReactJS que gera currículos personalizados em poucos minutos de acordo com suas necessidades.",
+    "image": "resumegen",
+    "category": "mern",
+    "links": {
+      "view": "https://resumegenx.netlify.app/",
+      "code": "https://github.com/jigar-sable/resumegen"
+    }
+  },
+  {
+    "name": "React-Projects",
+    "desc": "Painel de projeto full-stack que é uma coleção de projetos construídos com a biblioteca React.",
+    "image": "reactprojects",
+    "category": "mern",
+    "links": {
+      "view": "https://reactjsprojects.herokuapp.com/",
+      "code": "https://github.com/jigar-sable/React-Projects"
+    }
+  },
+  {
+    "name": "Flipkart PHP",
+    "desc": "Clone completo da Flipkart usando a pilha LAMP. Com todos os principais recursos e autenticação OTP e gateway de pagamento Cashfree.",
+    "image": "flipkartphp",
+    "category": "lamp",
+    "links": {
+      "view": "https://github.com/jigar-sable/Flipkart-Clone-PHP",
+      "code": "https://github.com/jigar-sable/Flipkart-Clone-PHP"
+    }
+  },
+  {
+    "name": "JavaScript Projects Website",
+    "desc": "Este site é especialmente construído para mostrar todos os principais projetos JavaScript. Todos os meus projetos baseados em JavaScript estão nele.",
+    "image": "jspro",
+    "category": "basicweb",
+    "links": {
+      "view": "https://jigar-sable.github.io/JavaScript-Projects",
+      "code": "https://github.com/jigar-sable/JavaScript-Projects"
+    }
+  },
+  {
+    "name": "Web UI Clones",
+    "desc": "Clones de interface de usuário web do Flipkart, YouTube, Instagram, Sololearn usando tailwindCSS.",
+    "image": "webuiclones",
+    "category": "mern",
+    "links": {
+      "view": "https://github.com/jigar-sable/web-ui-clones",
+      "code": "https://github.com/jigar-sable/web-ui-clones"
+    }
+  },
+  {
+    "name": "Crypto Tracker",
+    "desc": "Rastreador de criptomoedas construído usando ReactJS e Chakra UI. Suporta modo escuro. API usada coingecko.",
+    "image": "cryptotracker",
+    "category": "mern",
+    "links": {
+      "view": "https://crypto-tracker-react-project.netlify.app/",
+      "code": "https://github.com/jigar-sable/React-Projects/tree/main/crypto-tracker"
+    }
+  },
+  {
+    "name": "Hulu Website",
+    "desc": "Site do Hulu construído usando NextJS e tailwindCSS. API usada TMDB, implantado na vercel.",
+    "image": "hulu",
+    "category": "mern",
+    "links": {
+      "view": "https://hulu-clone-jigar-sable.vercel.app/",
+      "code": "https://github.com/jigar-sable/React-Projects/tree/main/hulu-clone"
+    }
+  },
+  {
+    "name": "Portfolio Website",
+    "desc": "Website de portfólio pessoal. Não precisa de muita informação, apenas role para baixo. Você já está aqui!",
+    "image": "portfolio1",
+    "category": "basicweb",
+    "links
+
+": {
+      "view": "#",
+      "code": "https://github.com/jigar-sable/Portfolio-Website"
+    }
+  },
+  {
+    "name": "Composey Website",
+    "desc": "Página de destino simples construída usando HTML, CSS, JavaScript e algumas bibliotecas JavaScript.",
+    "image": "composey",
+    "category": "basicweb",
+    "links": {
+      "view": "https://composey.netlify.app/",
+      "code": "https://github.com/jigar-sable/LGMVIP-WebDev"
+    }
+  },
+  {
+    "name": "Webview App",
+    "desc": "É um aplicativo Android que usa o componente de visualização da web para exibir conteúdo. Este aplicativo oferece muitos recursos diferentes.",
+    "image": "webviewapp",
+    "category": "android",
+    "links": {
+      "view": "https://github.com/jigar-sable/Android-Webview#webapp--android-webview-app",
+      "code": "https://github.com/jigar-sable/Android-Webview"
+    }
+  },
+  {
+    "name": "PHP Banking Website",
+    "desc": "Sistema bancário básico baseado em PHP e banco de dados MySQL. Feito com HTML, CSS, JavaScript e backend com PHP.",
+    "image": "tsfbank",
+    "category": "lamp",
+    "links": {
+      "view": "https://tsfbank.rf.gd",
+      "code": "https://github.com/jigar-sable/TSF-Bank"
+    }
+  },
+  {
+    "name": "Bootstrap Portfolio",
+    "desc": "Portfólio construído usando HTML, CSS, Bootstrap, SASS e JavaScript. Bootstrap personalizado usando SCSS.",
+    "image": "bootstrapportfolio",
+    "category": "basicweb",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Bootstrap Template",
+    "desc": "Modelo básico de site construído usando HTML e Bootstrap.",
+    "image": "bootstraptemplate",
+    "category": "basicweb",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Foodicious",
+    "desc": "Página de destino básica de alimentos construída usando HTML, CSS e JavaScript.",
+    "image": "foodicious",
+    "category": "basicweb",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Food Website",
+    "desc": "Página de destino básica de alimentos construída usando HTML, CSS, SASS, Bootstrap e jQuery.",
+    "image": "foodwebsite",
+    "category": "basicweb",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "WebChat Website",
+    "desc": "É um aplicativo de bate-papo baseado na web feito com a popular biblioteca JavaScript Socket IO. Permite que vários usuários se conectem.",
+    "image": "webchat",
+    "category": "mern",
+    "links": {
+      "view": "https://github.com/jigar-sable/WebChat#webchat",
+      "code": "https://github.com/jigar-sable/WebChat"
+    }
+  },
+  {
+    "name": "Basic Banking App",
+    "desc": "É um aplicativo Android que usa o SQLite para armazenar dados de contas de usuários. Fornece a funcionalidade de simplesmente transacionar valores.",
+    "image": "basicbank",
+    "category": "android",
+    "links": {
+      "view": "https://github.com/jigar-sable/Basic_Banking_App#basic-banking-app",
+      "code": "https://github.com/jigar-sable/Basic_Banking_App"
+    }
+  },
+  {
+    "name": "JavaScript Issue Tracker",
+    "desc": "Fornece a funcionalidade de atribuir problemas com o ID gerado automaticamente usando o ChanceJS. Usa o Armazenamento Local.",
+    "image": "issuetrack",
+    "category": "basicweb",
+    "links": {
+      "view": "https://jigar-sable.github.io/JavaScript-Projects/projects/issuetracker",
+      "code": "https://github.com/jigar-sable/JavaScript-Projects/tree/main/projects/issuetracker"
+    }
+  },
+  {
+    "name": "PHP PBL Portal",
+    "desc": "Um portal simples no qual os alunos podem enviar seus projetos PBL e os professores podem visualizar acessando o painel de administração.",
+    "image": "phppblform",
+    "category": "lamp",
+    "links": {
+      "view": "https://github.com/jigar-sable/PHP-Projects/tree/main/pblform#pbl-portal",
+      "code": "https://github.com/jigar-sable/PHP-Projects/tree/main/pblform"
+    }
+  },
+  {
+    "name": "Link List",
+    "desc": "Todos os principais links de perfil em um único site. É como um clone do link tree. Personalizado e responsivo.",
+    "image": "linklist",
+    "category": "basicweb",
+    "links": {
+      "view": "https://jigar-sable.github.io/LinkList",
+      "code": "https://github.com/jigar-sable/LinkList"
+    }
+  },
+  {
+    "name": "Job Finder Dummy",
+    "desc": "Recupera dados JSON e permite a pesquisa dentro do conteúdo exibido. Será desenvolvido usando APIs ao vivo.",
+    "image": "saas",
+    "category": "basicweb",
+    "links": {
+      "view": "https://jigar-sable.github.io/JavaScript-Projects/api-projects/saas-jobs",
+      "code": "https://github.com/jigar-sable/JavaScript-Projects/tree/main/api-projects/saas-jobs"
+    }
+  },
+  {
+    "name": "Old Websites",
+    "desc": "Bestwebs & ColorCoder. Memórias de websites de dois anos atrás. Simples com recursos básicos.",
+    "image": "oldsites",
+    "category": "basicweb",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Resistor Color Codes",
+    "desc": "Fornece simplesmente os códigos de cores dos resistores. Informações de cálculo e sobre resistores.",
+    "image": "resistercolor",
+    "category": "basicweb",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "KIA Info Website",
+    "desc": "Página web básica da KIA exibe informações sobre a linha de produtos Seltos. Especificações e galeria de imag
+
+ens.",
+    "image": "kiaweb",
+    "category": "basicweb",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Burger Shop Dummy",
+    "desc": "Página web básica de uma lanchonete permite que os usuários verifiquem o menu e os preços. Formulário de pedido fictício.",
+    "image": "burgerweb",
+    "category": "basicweb",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Indian Temples",
+    "desc": "Mostra templos de diferentes setores da Índia. Quando o usuário clica, será redirecionado para a wiki daquele templo para obter informações.",
+    "image": "templeweb",
+    "category": "basicweb",
+    "links": {
+      "view": "#",
+      "code": "#"
+    }
+  }
+]
