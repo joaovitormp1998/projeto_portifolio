@@ -79,20 +79,20 @@ var typed = new Typed(".typing-text", {
 });
 // <!-- typed js effect ends -->
 
-async function fetchData(type = "skills") {
+async function fetchData(type = "habilidades") {
     let response
-    type === "skills" ?
-        response = await fetch("skills.json")
+    type === "habilidades" ?
+        response = await fetch("habilidades.json")
         :
-        response = await fetch("./projects/projects.json")
+        response = await fetch("./projetos/projects.json")
     const data = await response.json();
     return data;
 }
 
-function showSkills(skills) {
-    let skillsContainer = document.getElementById("habilidadesContainer");
+function showhabilidades(habilidades) {
+    let habilidadesContainer = document.getElementById("habilidadesContainer");
     let skillHTML = "";
-    skills.forEach(skill => {
+    habilidades.forEach(skill => {
         skillHTML += `
         <div class="bar">
               <div class="info">
@@ -101,7 +101,7 @@ function showSkills(skills) {
               </div>
             </div>`
     });
-    skillsContainer.innerHTML = skillHTML;
+    habilidadesContainer.innerHTML = skillHTML;
 }
 
 function showProjects(projects) {
@@ -147,7 +147,7 @@ function showProjects(projects) {
 }
 
 fetchData().then(data => {
-    showSkills(data);
+    showhabilidades(data);
 });
 
 fetchData("projects").then(data => {
@@ -232,19 +232,19 @@ srtop.reveal('.about .content .box-container', { delay: 200 });
 srtop.reveal('.about .content .resumebtn', { delay: 200 });
 
 
-/* SCROLL SKILLS */
-srtop.reveal('.skills .container', { interval: 200 });
-srtop.reveal('.skills .container .bar', { delay: 400 });
+/* SCROLL habilidades */
+srtop.reveal('.habilidades .container', { interval: 200 });
+srtop.reveal('.habilidades .container .bar', { delay: 400 });
 
 /* SCROLL EDUCATION */
-srtop.reveal('.education .box', { interval: 200 });
+srtop.reveal('.educacao .box', { interval: 200 });
 
 /* SCROLL PROJECTS */
 srtop.reveal('.work .box', { interval: 200 });
 
 /* SCROLL EXPERIENCE */
-srtop.reveal('.experience .timeline', { delay: 400 });
-srtop.reveal('.experience .timeline .container', { interval: 400 });
+srtop.reveal('.experiencia .timeline', { delay: 400 });
+srtop.reveal('.experiencia .timeline .container', { interval: 400 });
 
 /* SCROLL contato */
 srtop.reveal('.contato .container', { delay: 400 });
