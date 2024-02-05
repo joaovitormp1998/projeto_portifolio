@@ -226,11 +226,11 @@ srtop.reveal('.home .instagram', { interval: 600 });
 srtop.reveal('.home .dev', { interval: 600 });
 
 /* SCROLL ABOUT */
-srtop.reveal('.about .content h3', { delay: 200 });
-srtop.reveal('.about .content .tag', { delay: 200 });
-srtop.reveal('.about .content p', { delay: 200 });
-srtop.reveal('.about .content .box-container', { delay: 200 });
-srtop.reveal('.about .content .resumebtn', { delay: 200 });
+srtop.reveal('.sobre .content h3', { delay: 200 });
+srtop.reveal('.sobre .content .tag', { delay: 200 });
+srtop.reveal('.sobre .content p', { delay: 200 });
+srtop.reveal('.sobre .content .box-container', { delay: 200 });
+srtop.reveal('.sobre .content .resumebtn', { delay: 200 });
 
 
 /* SCROLL habilidades */
@@ -241,7 +241,7 @@ srtop.reveal('.habilidades .container .bar', { delay: 400 });
 srtop.reveal('.educacao .box', { interval: 200 });
 
 /* SCROLL PROJECTS */
-srtop.reveal('.work .box', { interval: 200 });
+srtop.reveal('.projetos .box', { interval: 200 });
 
 /* SCROLL EXPERIENCE */
 srtop.reveal('.experiencia .timeline', { delay: 400 });
