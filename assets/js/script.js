@@ -90,7 +90,7 @@ async function fetchData(type = "skills") {
 }
 
 function showSkills(skills) {
-    let skillsContainer = document.getElementById("skillsContainer");
+    let skillsContainer = document.getElementById("habilidadesContainer");
     let skillHTML = "";
     skills.forEach(skill => {
         skillHTML += `
@@ -105,7 +105,7 @@ function showSkills(skills) {
 }
 
 function showProjects(projects) {
-    let projectsContainer = document.querySelector("#work .box-container");
+    let projectsContainer = document.querySelector("#projetos .box-container");
     let projectHTML = "";
     projects.slice(0, 10).filter(project => project.category != "android").forEach(project => {
         projectHTML += `
