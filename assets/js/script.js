@@ -84,7 +84,7 @@ async function fetchData(type = "habilidades") {
     type === "habilidades" ?
         response = await fetch("habilidades.json")
         :
-        response = await fetch("./projetos/projects.json")
+        response = await fetch("./projetos/projetos.json")
     const data = await response.json();
     return data;
 }
@@ -104,13 +104,13 @@ function showhabilidades(habilidades) {
     habilidadesContainer.innerHTML = skillHTML;
 }
 
-function showProjects(projects) {
+function showProjects(projetos) {
     let projectsContainer = document.querySelector("#projetos .box-container");
     let projectHTML = "";
-    projects.slice(0, 10).filter(project => project.category != "android").forEach(project => {
+    projetos.slice(0, 10).filter(project => project.category != "android").forEach(project => {
         projectHTML += `
         <div class="box tilt">
-      <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
+      <img draggable="false" src="/assets/images/projetos/${project.image}.png" alt="project" />
       <div class="content">
         <div class="tag">
         <h3>${project.name}</h3>
@@ -150,7 +150,7 @@ fetchData().then(data => {
     showhabilidades(data);
 });
 
-fetchData("projects").then(data => {
+fetchData("projetos").then(data => {
     showProjects(data);
 });
 
