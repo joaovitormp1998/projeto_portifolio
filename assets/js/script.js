@@ -38,7 +38,7 @@ $(document).ready(function () {
     });
 
     // <!-- emailjs to mail contato form data -->
-    $("contato-form").submit(function (event) {
+    $("#contato-form").submit(function (event) {
         emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
 
         emailjs.sendForm('contato_service', 'template_contato', '#contato-form')
