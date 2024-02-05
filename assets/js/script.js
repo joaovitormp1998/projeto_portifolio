@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Desenvolvedor Full-Stack",  "Web Designer", "Desenvolvedor React/React Native", "Desenvolvedor Python/Django", "Desenvolvedor Angular", "Desenvolvedor Kotlin"],
+    strings: ["Desenvolvedor Full-Stack", "Web Designer", "Desenvolvedor React/React Native", "Desenvolvedor Python/Django", "Desenvolvedor Angular", "Desenvolvedor Kotlin"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -109,9 +109,10 @@ function showProjects(projetos) {
     let projectHTML = "";
     projetos.slice(0, 10).filter(project => project.category != "android").forEach(project => {
         projectHTML += `
-        <div class="box tilt">
-      <img draggable="false" src="/assets/images/projetos/${project.image}.png" alt="project" />
-      <div class="content">
+        <div class="box tilt">  <div class="media-container">
+        ${project.hasVideo ? `<video src="/assets/videos/projetos/${project.video}.mp4" controls></video>` : `<img draggable="false" src="/assets/images/projetos/${project.image}.png" alt="project" />`}
+      </div>
+      <div class="content"> 
         <div class="tag">
         <h3>${project.name}</h3>
         </div>

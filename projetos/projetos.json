@@ -94,6 +94,7 @@
     "name": "JavaScript Projects Website",
     "desc": "Este site é especialmente construído para mostrar todos os principais projetos JavaScript. Todos os meus projetos baseados em JavaScript estão nele.",
     "image": "jspro",
+    "video": "jspro",
     "category": "basicweb",
     "links": {
       "view": "https://jigar-sable.github.io/JavaScript-Projects",
