@@ -93,7 +93,7 @@
   {
     "name": "JavaScript Projects Website",
     "desc": "Este site é especialmente construído para mostrar todos os principais projetos JavaScript. Todos os meus projetos baseados em JavaScript estão nele.",
-    "image": "jspro",
+    "hasVideo": true,  
     "video": "jspro",
     "category": "basicweb",
     "links": {
