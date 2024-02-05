@@ -1,3 +1,4 @@
+
 [
   {
     "name": "NotyStack Android",
@@ -134,9 +135,7 @@
     "desc": "Website de portfólio pessoal. Não precisa de muita informação, apenas role para baixo. Você já está aqui!",
     "image": "portfolio1",
     "category": "basicweb",
-    "links
-
-": {
+    "links": {
       "view": "#",
       "code": "https://github.com/jigar-sable/Portfolio-Website"
     }
@@ -293,9 +292,7 @@
   },
   {
     "name": "KIA Info Website",
-    "desc": "Página web básica da KIA exibe informações sobre a linha de produtos Seltos. Especificações e galeria de imag
-
-ens.",
+    "desc": "Página web básica da KIA exibe informações sobre a linha de produtos Seltos. Especificações e galeria de imagens.",
     "image": "kiaweb",
     "category": "basicweb",
     "links": {
