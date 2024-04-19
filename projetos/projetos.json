@@ -3,11 +3,11 @@
 {
     "name": "Sistema de Gerenciamento de Equipamento Hospitalares",
     "desc": "Sistema Feito para o Hospital Universitario de Vassouras durante meu projeto de Conclusão de Curso",
-    "image": "flipkartphp",
+    "image": "siscontrolephp",
     "category": "lamp",
     "links": {
-      "view": "https://github.com/jigar-sable/Flipkart-Clone-PHP",
-      "code": "https://github.com/jigar-sable/Flipkart-Clone-PHP"
+      "view": "https://github.com/joaovitormp1998/engclinicaci4",
+      "code": "https://github.com/joaovitormp1998/engclinicaci4"
     }
   }
 ]
