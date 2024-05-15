@@ -103,29 +103,35 @@ async function showHabilidades(habilidades) {
     });
     habilidadesContainer.innerHTML = skillHTML;
   }
-async function criarAbas() {
+  async function criarAbas() {
     // Obtém o elemento da div das abas
     let tabsDiv = document.getElementById("tabs");
 
     // Obtém os dados do JSON
     let data = await fetchData();
 
-    // Cria os links das abas com base nas categorias do JSON
-    data.forEach(categoria => {
-      let tabLink = document.createElement("a");
-      tabLink.href = "#";
-      tabLink.classList.add("tab-link");
-      tabLink.dataset.category = categoria.name;
-      tabLink.textContent = categoria.name;
-      tabLink.addEventListener("click", function() {
-        mostrarCategoria(categoria.name);
-      });
-      tabsDiv.appendChild(tabLink);
-    });
+    // Verifica se data é um array
+    if (Array.isArray(data)) {
+        // Cria os links das abas com base nas categorias do JSON
+        data.forEach(categoria => {
+            let tabLink = document.createElement("a");
+            tabLink.href = "#";
+            tabLink.classList.add("tab-link");
+            tabLink.dataset.category = categoria.name;
+            tabLink.textContent = categoria.name;
+            tabLink.addEventListener("click", function() {
+                mostrarCategoria(categoria.name);
+            });
+            tabsDiv.appendChild(tabLink);
+        });
 
-    // Mostra as habilidades da primeira categoria por padrão
-    mostrarCategoria(data[0].name);
-  }
+        // Mostra as habilidades da primeira categoria por padrão
+        mostrarCategoria(data[0].name);
+    } else {
+        console.error("Os dados não estão no formato esperado.");
+    }
+}
+
 criarAbas();
 // Adicionar manipuladores de eventos para as abas
 document.querySelectorAll('.tab-link').forEach(tab => {
