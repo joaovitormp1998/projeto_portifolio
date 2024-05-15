@@ -118,7 +118,7 @@ async function showHabilidades(habilidades) {
         // Cria os links das abas com base nas categorias do JSON
         categorias.forEach(categoria => {
             let tabLink = document.createElement("a");
-            tabLink.href = "";
+            tabLink.href = "#"+categoria;
             tabLink.classList.add("tab-link");
             tabLink.dataset.category = categoria;
             tabLink.textContent = categoria;
