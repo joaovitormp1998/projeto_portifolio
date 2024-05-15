@@ -109,6 +109,7 @@ async function showHabilidades(habilidades) {
 
     // Obtém os dados do JSON
     let data = await fetchData();
+    console.log("Dados retornados:", data);
 
     // Verifica se data é um array
     if (Array.isArray(data)) {
