@@ -109,27 +109,29 @@ async function showHabilidades(habilidades) {
 
     // Obtém os dados do JSON
     let data = await fetchData();
-    console.log("Dados retornados:", data);
 
-    // Verifica se data é um array
-    if (Array.isArray(data)) {
+    // Extrai as categorias do objeto de dados
+    let categorias = Object.keys(data);
+
+    // Verifica se há categorias
+    if (categorias.length > 0) {
         // Cria os links das abas com base nas categorias do JSON
-        data.forEach(categoria => {
+        categorias.forEach(categoria => {
             let tabLink = document.createElement("a");
             tabLink.href = "#";
             tabLink.classList.add("tab-link");
-            tabLink.dataset.category = categoria.name;
-            tabLink.textContent = categoria.name;
+            tabLink.dataset.category = categoria;
+            tabLink.textContent = categoria;
             tabLink.addEventListener("click", function() {
-                mostrarCategoria(categoria.name);
+                mostrarCategoria(categoria);
             });
             tabsDiv.appendChild(tabLink);
         });
 
         // Mostra as habilidades da primeira categoria por padrão
-        mostrarCategoria(data[0].name);
+        mostrarCategoria(categorias[0]);
     } else {
-        console.error("Os dados não estão no formato esperado.");
+        console.error("Não foram encontradas categorias nos dados.");
     }
 }
 
