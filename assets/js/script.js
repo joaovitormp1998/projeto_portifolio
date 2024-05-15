@@ -89,21 +89,42 @@ async function fetchData(type = "habilidades") {
     return data;
 }
 
-function showhabilidades(habilidades) {
+async function showHabilidades(habilidades) {
     let habilidadesContainer = document.getElementById("habilidadesContainer");
     let skillHTML = "";
     habilidades.forEach(skill => {
-        skillHTML += `
+      skillHTML += `
         <div class="bar">
-              <div class="info">
-                <img src=${skill.icon} alt="skill" />
-                <span>${skill.name}</span>
-              </div>
-            </div>`
+          <div class="info">
+            <img src="${skill.icon}" alt="skill" />
+            <span>${skill.name}</span>
+          </div>
+        </div>`;
     });
     habilidadesContainer.innerHTML = skillHTML;
-}
-
+  }
+// Adicionar manipuladores de eventos para as abas
+document.querySelectorAll('.tab-link').forEach(tab => {
+    tab.addEventListener('click', async function() {
+      // Remover a classe 'active' de todas as abas
+      document.querySelectorAll('.tab-link').forEach(tab => {
+        tab.classList.remove('active');
+      });
+      // Adicionar a classe 'active' à aba clicada
+      this.classList.add('active');
+      
+      // Obter a categoria da aba clicada
+      const category = this.getAttribute('data-category');
+      
+      // Obter as habilidades da categoria selecionada
+      const data = await fetchData();
+      const habilidades = data[category];
+      
+      // Exibir as habilidades da categoria selecionada
+      showHabilidades(habilidades);
+    });
+  });
+  
 function showProjects(projetos) {
     let projectsContainer = document.querySelector("#projetos .box-container");
     let projectHTML = "";
@@ -148,8 +169,10 @@ function showProjects(projetos) {
 }
 
 fetchData().then(data => {
-    showhabilidades(data);
-});
+    const habilidades = data['front-end'];
+    showHabilidades(habilidades);
+  });
+
 
 fetchData("projetos").then(data => {
     showProjects(data);
