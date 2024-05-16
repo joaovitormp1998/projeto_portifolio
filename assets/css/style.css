@@ -1068,25 +1068,7 @@ form .button-area {
   transition: 0.3s ease;
   font-family: "Nunito", sans-serif;
 }
-/* Estilos CSS para o botão de rolagem ao topo */
-#scroll-top {
-  position: fixed;
-  bottom: -140%;
-  /* Inicialmente escondido */
-  right: 2rem;
-  padding: 1rem 1.5rem;
-  font-size: 4rem;
-  background: #1e365e;
-  color: rgb(13, 0, 44);
-  border-radius: 5rem;
-  transition: 1s linear;
-  z-index: 1000;
-}
 
-#scroll-top.active {
-  bottom: 2rem;
-  /* Mostra o botão quando ativo */
-}
 .button-area button:hover {
   background: #421cecf5;
 }
