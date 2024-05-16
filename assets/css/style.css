@@ -1243,6 +1243,15 @@ form .button-area {
   z-index: 1000;
 }
 #scroll-top.active {
-  top: calc(100% - 2rem);
+  position: fixed;
+  bottom: 2rem; /* Adjust spacing as needed */
+  right: 2rem;
+  padding: 1rem 1.5rem;
+  font-size: 3.5rem;
+  background: #1e365e;
+  color: white;
+  border-radius: 50%;
+  transition: 1s linear;
+  z-index: 1000;
 }
 /* scroll top ends */
