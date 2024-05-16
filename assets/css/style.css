@@ -246,7 +246,7 @@ header .navbar ul li a:hover {
 .home .content h2 {
   font-size: 5rem;
   font-weight: 800;
-  color: #002057;
+  color: #1e365e;
 }
 .home .content h2 span {
   font-size: 5rem;
@@ -1139,7 +1139,7 @@ form .button-area {
 }
 .footer .box-container .box p i {
   padding-right: 1rem;
-  color: #002057;
+  color: #1e365e;
 }
 .footer .box-container .box a {
   font-size: 1.5rem;
@@ -1148,7 +1148,7 @@ form .button-area {
   display: block;
 }
 .footer .box-container .box a:hover {
-  color: #002057;
+  color: #1e365e;
 }
 .footer .box-container .box .share {
   display: flex;
@@ -1236,7 +1236,7 @@ form .button-area {
   right: 2rem;
   padding: 1rem 1.5rem;
   font-size: 3.5rem;
-  background: #002057;
+  background: #1e365e;
   color: white;
   border-radius: 50%;
   transition: 1s linear;
