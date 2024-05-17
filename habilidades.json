@@ -87,6 +87,10 @@
       "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
     },
     {
+      "name": "SpringBoot",
+      "icon": "https://img.icons8.com/color/48/spring-logo.png"
+    },
+    {
       "name": "Kotlin",
       "icon": "https://img.icons8.com/color/48/000000/kotlin.png"
     },
@@ -126,8 +130,9 @@
       "name": "AzureCloud",
       "icon": "https://img.icons8.com/fluency/48/azure-1.png"
     },
-    { "name":"GCP Google",
-      "icon":"https://img.icons8.com/color/48/google-cloud-platform.png"
+    {
+      "name": "GCP Google",
+      "icon": "https://img.icons8.com/color/48/google-cloud-platform.png"
     },
     {
       "name": "DigitalOcean",
@@ -143,7 +148,6 @@
       "name": "Gitlab",
       "icon": "https://img.icons8.com/color/48/gitlab.png"
     },
-
     {
       "name": "Git VCS",
       "icon": "https://img.icons8.com/color/48/000000/git.png"
