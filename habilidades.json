@@ -123,6 +123,13 @@
       "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"
     },
     {
+      "name": "AzureCloud",
+      "icon": "https://img.icons8.com/fluency/48/azure-1.png"
+    },
+    { "name":"Google Cloud Plataform",
+      "icon":"https://img.icons8.com/color/48/google-cloud-platform.png"
+    },
+    {
       "name": "DigitalOcean",
       "icon": "https://img.icons8.com/ios-filled/48/0080FF/digitalocean.png"
     }
