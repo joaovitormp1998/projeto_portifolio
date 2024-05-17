@@ -126,7 +126,7 @@
       "name": "AzureCloud",
       "icon": "https://img.icons8.com/fluency/48/azure-1.png"
     },
-    { "name":"Google Cloud Plataform",
+    { "name":"GCP Google",
       "icon":"https://img.icons8.com/color/48/google-cloud-platform.png"
     },
     {
@@ -135,6 +135,15 @@
     }
   ],
   "version-control": [
+    {
+      "name": "Bitbucket",
+      "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/external-bitbucket-is-a-web-based-version-control-repository-hosting-service-logo-shadow-tal-revivo.png"
+    },
+    {
+      "name": "Gitlab",
+      "icon": "https://img.icons8.com/color/48/gitlab.png"
+    },
+
     {
       "name": "Git VCS",
       "icon": "https://img.icons8.com/color/48/000000/git.png"
