@@ -26,15 +26,17 @@ body {
   color: #fff;
 }
 .tab-link {
-  display: inline-block;
-  padding: 10px 20px;
+  font-family: 'Poppins';
+  display: inline-flex;
+  padding: 3px 6px;
   margin-right: 10px;
   background-color: #f0f0f0;
-  color: #333;
+  color: #856e29;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 93px;
   transition: background-color 0.3s ease;
 }
+
 
 .tab-link.active {
   background-color: #007bff;
@@ -535,10 +537,8 @@ header .navbar ul li a:hover {
   margin-left: 0.5rem;
 }
 .tabs {
-  font-size: 2rem;
-  font-weight: 500;
-  font-family: "Poppins";
-  color:green;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 /* habilidades media queries starts*/
 @media screen and (max-width: 600px) {
