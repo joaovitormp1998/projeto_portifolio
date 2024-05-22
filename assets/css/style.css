@@ -534,6 +534,12 @@ header .navbar ul li a:hover {
   font-family: "Poppins";
   margin-left: 0.5rem;
 }
+.tabs {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "Poppins";
+  color:green;
+}
 /* habilidades media queries starts*/
 @media screen and (max-width: 600px) {
   .habilidades .container {
