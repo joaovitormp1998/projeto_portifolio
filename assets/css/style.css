@@ -1457,10 +1457,13 @@ form .button-area {
   /* ... outras propriedades ... */
   display: flex;
   justify-content: center;
+  position: absolute;
+  cursor: pointer;
   /* Centraliza horizontalmente */
   align-items: center;
+  box-sizing: border-box;
   /* Centraliza verticalmente */
-  font-size: 3.5rem;
+  font-size: 3.75rem;
   background: #1e365e;
   color: white;
   border-radius: 50%;
@@ -1469,13 +1472,17 @@ form .button-area {
 }
 
 #scroll-top.active {
+  cursor: pointer;
   /* ... outras propriedades ... */
+  position: absolute;
   display: flex;
   justify-content: center;
   /* Centraliza horizontalmente */
   align-items: center;
+
+  box-sizing: border-box;
   /* Centraliza verticalmente */
-  font-size: 3.5rem;
+  font-size: 3.75rem;
   background: #1e365e;
   color: white;
   border-radius: 50%;
