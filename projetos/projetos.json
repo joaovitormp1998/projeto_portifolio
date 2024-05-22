@@ -1,13 +1,15 @@
-
-[
 {
-    "name": "Sistema de Gerenciamento de Equipamento Hospitalares",
-    "desc": "Sistema Feito para o Hospital Universitario de Vassouras durante meu projeto de Conclusão de Curso",
-    "image": "siscontrolephp",
-    "category": "lamp",
-    "links": {
-      "view": "https://github.com/joaovitormp1998/engclinicaci4",
-      "code": "https://github.com/joaovitormp1998/engclinicaci4"
-    }
-  }
-]
+  "name": "Sistema de Gerenciamento de Equipamento Hospitalares",
+  "desc": "O setor de engenharia clínica enfrentava desafios no gerenciamento manual do inventário e histórico de equipamentos hospitalares. Para otimizar essa rotina, foi desenvolvido um sistema que facilita a administração e organização dos dados do inventário e das ordens de serviço, utilizando ferramentas computacionais.",
+  "image": "siscontrolephp",
+  "category": "LAMP",
+  "links": {
+    "view": "https://github.com/joaovitormp1998/engclinicaci4",
+    "code": "https://github.com/joaovitormp1998/engclinicaci4"
+  },
+  "features": [
+    "Gerenciamento do inventário de equipamentos hospitalares",
+    "Controle e acompanhamento das ordens de serviço",
+    "Otimização da rotina do setor de engenharia clínica"
+  ]
+}
