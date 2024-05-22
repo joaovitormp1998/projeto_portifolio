@@ -964,6 +964,9 @@ header .navbar ul li a:hover {
   border-radius: 1.5rem;
   margin: 2rem 5rem;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+  display: flex; /* Manter o flexbox para o alinhamento vertical */
+  align-items: center; /* Centralizar verticalmente */
+  margin: 0 auto; /* Centralizar horizontalmente */
 }
 .contato .container .content {
   display: flex;
