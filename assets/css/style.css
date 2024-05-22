@@ -1454,40 +1454,37 @@ form .button-area {
 
 /* scroll top starts */
 #scroll-top {
-  /* ... outras propriedades ... */
+  width: 60px;
+  height: 60px;
   display: flex;
   justify-content: center;
-  position: absolute;
-  cursor: pointer;
-  /* Centraliza horizontalmente */
   align-items: center;
-  box-sizing: border-box;
-  /* Centraliza verticalmente */
-  font-size: 3.75rem;
+  font-size: 3.5rem;
   background: #1e365e;
   color: white;
   border-radius: 50%;
   transition: 1s linear;
-  z-index: 1000;
+  z-index: 1000; /* Para garantir que fique acima de outros elementos */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
 }
+
 
 #scroll-top.active {
-  cursor: pointer;
-  /* ... outras propriedades ... */
-  position: absolute;
+  width: 60px;
+  height: 60px;
   display: flex;
   justify-content: center;
-  /* Centraliza horizontalmente */
   align-items: center;
-
-  box-sizing: border-box;
-  /* Centraliza verticalmente */
-  font-size: 3.75rem;
+  font-size: 3.5rem;
   background: #1e365e;
   color: white;
   border-radius: 50%;
   transition: 1s linear;
-  z-index: 1000;
+  z-index: 1000; /* Para garantir que fique acima de outros elementos */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
 }
-
 /* scroll top ends */
