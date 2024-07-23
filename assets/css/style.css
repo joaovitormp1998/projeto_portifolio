@@ -248,6 +248,8 @@ header .navbar ul li a:hover {
   height: 100%;
   width: 100%;
   background-color: #000;
+  cursor: url('../images/cursor.png'), auto; /* Usando uma imagem personalizada para o cursor */
+
 }
 
 .home::before {
