@@ -93,7 +93,6 @@ html::-webkit-scrollbar-thumb {
 
 /* navbar starts */
 header {
-
   align-items: center;
   display: flex;
   height: 12vh;
@@ -101,9 +100,8 @@ header {
   padding: 0 20rem;
 }
 nav {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
+  display: flex;
 }
 
 .logo a {
