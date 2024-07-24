@@ -82,6 +82,8 @@ nav {
 #particles-js {
   position: absolute;
   background-color: black;
+  color: #00aaff; /* Color for your icons */
+  font-size: 24px;
   top: 0;
   left: 0;
   width: 100%;
