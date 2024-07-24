@@ -89,9 +89,17 @@ html::-webkit-scrollbar-thumb {
 
 /* navbar starts */
 header {
-  background-color: #1a1a1a; /* Dark background */
+  background-color: #1a1a1a;
+  /* Dark background */
   color: white;
   padding: 1rem;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.94px;
+  text-align: left;
+
+
 }
 
 nav {
@@ -108,7 +116,8 @@ nav {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 2rem; /* Space between links */
+  gap: 2rem;
+  /* Space between links */
 }
 
 .nav-links li a {
@@ -133,10 +142,12 @@ nav {
   display: flex;
   gap: 1rem;
 }
-.social-icons a{
+
+.social-icons a {
   color: white;
   font-size: 1.5rem;
 }
+
 /* navbar ends */
 
 /* hamburger icon starts*/
@@ -334,8 +345,8 @@ nav {
   font-size: 2rem;
   display: inline-block;
   line-height: 44px;
-  color: #00d9ff;
-  background-color: #09011b;
+  color: #fff;
+  background-color: #fff;
   width: 44px;
   height: 44px;
   text-align: center;
@@ -1437,7 +1448,8 @@ form .button-area {
   color: white;
   border-radius: 50%;
   transition: 1s linear;
-  z-index: 1000; /* Para garantir que fique acima de outros elementos */
+  z-index: 1000;
+  /* Para garantir que fique acima de outros elementos */
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -1455,16 +1467,20 @@ form .button-area {
   color: white;
   border-radius: 50%;
   transition: 1s linear;
-  z-index: 1000; /* Para garantir que fique acima de outros elementos */
+  z-index: 1000;
+  /* Para garantir que fique acima de outros elementos */
   position: fixed;
   bottom: 20px;
   right: 20px;
 }
+
 /* scroll top ends */
-.toggle, .toggle-container {
+.toggle,
+.toggle-container {
   display: flex;
   position: relative;
 }
+
 .toggle-container {
   align-items: center;
   left: 11.7rem;
