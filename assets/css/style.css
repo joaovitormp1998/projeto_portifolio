@@ -1,5 +1,11 @@
 /* assets/css/style.css */
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -46,8 +52,9 @@ main {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  position: relative; /* Para posicionar o #particles-js corretamente */
-  overflow: hidden; /* Para garantir que não há rolagem */
+  position: relative;
+  background: url('assets/images/hero.png') center center / cover no-repeat; /* Corrigido o caminho da imagem */
+  overflow: hidden;
 }
 
 .profile {
@@ -56,7 +63,7 @@ main {
   background: rgba(0, 0, 0, 0.8);
   padding: 20px;
   border-radius: 10px;
-  z-index: 1; /* Para garantir que o conteúdo fique acima das partículas */
+  z-index: 1; /* Garante que o conteúdo fique acima das partículas */
 }
 
 .profile img {
@@ -116,6 +123,6 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #111; /* cor de fundo se desejar */
-  z-index: -1; /* coloca as partículas atrás do conteúdo */
+  background: #111; /* Cor de fundo opcional */
+  z-index: -1; /* Coloca as partículas atrás do conteúdo */
 }
