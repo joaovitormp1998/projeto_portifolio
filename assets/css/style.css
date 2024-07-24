@@ -119,12 +119,26 @@ nav {
   gap: 2rem;
   /* Space between links */
 }
+/* ... (outros estilos) ... */
 
 .nav-links li a {
   text-decoration: none;
   color: white;
   font-weight: 500;
 }
+
+/* Link Ativo */
+.nav-links li.active a,
+.nav-links li a:active {
+  color: #1ABCFE; 
+}
+
+/* Efeito Hover */
+.nav-links li a:hover {
+  color: #1ABCFE; /* Cor azul no hover */
+  border-bottom: 2px solid #1ABCFE; /* Sublinhado azul (opcional) */
+}
+
 
 /* Toggle Button (adjust as needed for appearance) */
 .toggle-container {
