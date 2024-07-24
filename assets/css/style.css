@@ -1,27 +1,4 @@
-/* assets/css/style.css */
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #111;
-  color: #fff;
-  overflow: hidden;
-}
-
-header {
-  background-color: #000;
-  padding: 10px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
+/* 
 nav .logo a {
   color: #00aaff;
   text-decoration: none;
@@ -45,16 +22,32 @@ nav ul li a {
 nav .social-icons a {
   color: #fff;
   margin-left: 10px;
+} */
+.profile-section {
+  position: relative; 
+  min-height: 100vh; /* Garante que a seção ocupe a altura da tela */
+  overflow: hidden;
 }
 
-main {
+#particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.profile-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  position: relative;
-  background: rgba(0, 0, 0, 0.5); /* Cor de fundo semi-transparente */
-  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
 
 .profile {
@@ -115,14 +108,4 @@ main {
 .profile .download-cv:hover {
   background: #00aaff;
   color: #fff;
-}
-
-#particles-js {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #111; /* Cor de fundo opcional, pode ser a mesma do body ou outra */
-  z-index: -1; /* Coloca as partículas atrás do conteúdo */
 }
