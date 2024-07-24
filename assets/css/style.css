@@ -1,4 +1,6 @@
-
+nav {
+background-color: black;
+}
 nav .logo a {
   color: #00aaff;
   text-decoration: none;
