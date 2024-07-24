@@ -1,4 +1,4 @@
-/* 
+
 nav .logo a {
   color: #00aaff;
   text-decoration: none;
@@ -22,7 +22,7 @@ nav ul li a {
 nav .social-icons a {
   color: #fff;
   margin-left: 10px;
-} */
+}
 .profile-section {
   position: relative; 
   min-height: 100vh; /* Garante que a seção ocupe a altura da tela */
