@@ -1522,14 +1522,14 @@ form .button-area {
   z-index: 1; /* Garante que o conteúdo fique acima das partículas */
 }
 
-.profile img {
+.home img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
   border: 2px solid #00aaff;
 }
 
-.profile h1 {
+.home h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 63px;
   font-weight: 700;
@@ -1539,7 +1539,7 @@ form .button-area {
   color: #fff;
 }
 
-.profile h2 {
+.home h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 26px;
   font-weight: 600;
@@ -1553,7 +1553,7 @@ form .button-area {
   text-fill-color: transparent;
 }
 
-.profile p {
+.home p {
   font-size: 1,1875em;
   font-weight: 500;
   margin: 20px 0;
@@ -1561,7 +1561,7 @@ form .button-area {
   color:#fff;
 }
 
-.profile .download-cv {
+.home .download-cv {
   display: inline-block;
   padding: 10px 20px;
   border: 2px solid #00aaff;
@@ -1571,7 +1571,7 @@ form .button-area {
   transition: background 0.3s, color 0.3s;
 }
 
-.profile .download-cv:hover {
+.home .download-cv:hover {
   background: #00aaff;
   color: #fff;
 }
