@@ -1529,7 +1529,7 @@ form .button-area {
   border: 2px solid #00aaff;
 }
 
-.home h1 {
+.content h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 63px;
   font-weight: 700;
@@ -1539,7 +1539,7 @@ form .button-area {
   color: #fff;
 }
 
-.home h2 {
+.content h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 26px;
   font-weight: 600;
@@ -1553,7 +1553,7 @@ form .button-area {
   text-fill-color: transparent;
 }
 
-.home p {
+.content p {
   font-size: 1,1875em;
   font-weight: 500;
   margin: 20px 0;
@@ -1561,7 +1561,7 @@ form .button-area {
   color:#fff;
 }
 
-.home .download-cv {
+.content .download-cv {
   display: inline-block;
   padding: 10px 20px;
   border: 2px solid #00aaff;
@@ -1571,7 +1571,7 @@ form .button-area {
   transition: background 0.3s, color 0.3s;
 }
 
-.home .download-cv:hover {
+.content .download-cv:hover {
   background: #00aaff;
   color: #fff;
 }
