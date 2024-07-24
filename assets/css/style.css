@@ -84,6 +84,7 @@ nav {
   background-color: black;
   color: #00aaff; /* Color for your icons */
   font-size: 24px;
+  cursor: pointer;
   top: 0;
   left: 0;
   width: 100%;
