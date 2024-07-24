@@ -1,39 +1,412 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>João Monsorres - Desenvolvedor Full-Stack</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords"
+    content="Joao Vitor, portfólio, Nascimento, desenvolvedor full stack, portfólio pessoal lifecodes, design de portfólio, site de portfólio, portfólio pessoal" />
+  <meta name="description"
+    content="Bem-vindo ao Portfólio de Joao Vitor. Desenvolvedor Web Full-Stack e Desenvolvedor de Aplicativos Android" />
+  <!-- CSS Personalizado -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Ícone do Favicon -->
+  <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+  <title>Portfólio | João Vitor</title>
 </head>
-<body>
-    <header>
-        <nav>
-            <div class="logo"><a href="#">JVMN</a></div>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Experiências</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-            <div class="social-icons">
-                <a href="#"><i class="fab fa-github"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
+
+<body oncontextmenu="return false">
+
+  <!-- Carregador prévio -->
+  <!-- <div class="loader-container">
+  <img draggable="false" src="./assets/images/preloader.gif" alt="">
+</div> -->
+
+  <!-- Início da barra de navegação -->
+  <header>
+    <a href="/" class="logo"><i class="fab fa-node-js"></i> João Vitor
+    </a>
+
+    <div id="menu" class="fas fa-bars"></div>
+    <nav class="navbar">
+      <ul>
+        <li><a class="active" href="#home">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#educacao">Educação</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Fim da barra de navegação -->
+
+
+  <!-- Início da seção hero -->
+  <section class="home" id="home">
+    <div id="particles-js"></div>
+
+    <div class="content">
+      <h2>Olá,<br /> Eu sou João Vitor <span>Monsores</span></h2>
+      <p>Eu sou um <span class="typing-text"></span></p>
+      <a href="#sobre" class="btn"><span>Sobre mim</span>
+        <i class="fas fa-arrow-circle-down"></i>
+      </a>
+      <div class="socials">
+        <ul class="social-icons">
+          <li><a class="linkedin" aria-label="LinkedIn"
+              href="https://linkedin.com/in/joao-vitor-monsores-do-nascimento-956340143//" target="_blank"><i
+                class="fab fa-linkedin"></i></a></li>
+          <li><a class="github" aria-label="GitHub" href="https://github.com/joaovitormp1998/joaovitormp1998"
+              target="_blank"><i class="fab fa-github"></i></a></li>
+     
+              <li><a class="WhatsApp" aria-label="WhatsApp" href="https://wa.me/5524981389459" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+
+          <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/joaovit_mp"><i
+                class="fab fa-instagram" target="_blank"></i></a></li>
+       
+        </ul>
+      </div>
+    </div>
+    <div class="image">
+      <img draggable="false" class="tilt" src="./assets/images/hero.png" alt="">
+    </div>
+  </section>
+  <!-- Fim da seção hero -->
+
+
+  <!-- Início da seção sobre -->
+  <section class="sobre" id="sobre">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> Sobre <span>Mim</span></h2>
+
+    <div class="row">
+
+      <div class="image">
+        <img draggable="false" class="tilt" src="./assets/images/profile2.jpg" alt="">
+      </div>
+      <div class="content">
+        <h3> João Vitor Monsores do Nascimento</h3>
+        <span class="tag">Desenvolvedor Full Stack</span>
+
+        <p>Como desenvolvedor de software, minha paixão é criar soluções inovadoras e eficazes para desafios
+          tecnológicos no mundo das aplicações web. Com mais de 5 anos de experiência nesse domínio, adquiri habilidades
+          sólidas em linguagens de programação essenciais, como JavaScript, Python , TypeScript, Java, React,
+          Angular,Laravel.
+          .</p>
+
+        <div class="box-container">
+          <!-- <div class="box">
+              <p><span> idade: </span> 20</p>
+              <p><span> telefone : </span> +55 24 98138-9459</p>
+            </div> -->
+          <div class="box">
+            <p><span> Email : </span> joaovitormonsores@hotmail.com</p>
+            <p><span> Localização : </span> Rio de Janeiro, Miguel Pereira - 26910-000</p>
+          </div>
+        </div>
+
+        <div class="resumebtn">
+          <a href="https://drive.google.com/file/d/1aut03zTm2waQN1Zb7bdFi6t_Jo8FCzzC/view?usp=drive_link" target="_blank"
+            class="btn"><span>Curriculo</span>
+            <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Fim da seção sobre -->
+
+  <!-- Início da seção habilidades -->
+  <section class="habilidades" id="habilidades">
+
+    <h2 class="heading" ><i class="fas fa-laptop-code"></i> Habilidades & <span>Competências</span></h2>
+   
+  
+    <div class="container">
+      <div class="tabs" id="tabs" style="margin-bottom:2vh;">
+      </div>
+      <div class="row" id="habilidadesContainer">
+
+      </div>
+    </div>
+  </section>
+  <!-- Fim da seção habilidades -->
+
+
+  <!-- Início da seção educação -->
+  <section class="educacao" id="educacao">
+
+    <h1 class="heading"><i class="fas fa-graduation-cap"></i> Minha <span>Educação</span></h1>
+
+    <p class="qoute">Educação não é a aprendizagem de fatos, mas o treinamento da mente para pensar.</p>
+
+    <div class="box-container">
+
+      <div class="box">
+        <div class="image">
+          <img draggable="false" src="./assets/images/faculdades_escolas/college.jpeg" alt="">
+        </div>
+        <div class="content">
+          <h3>Bacharelado em Engenharia de Sofware </h3>
+          <p>Universidade de Vassouras | Vassouras , Rio de Janeiro</p>
+          <h4>2019-2022 | Concluído</h4>
+        </div>
+      </div>
+      <div class="box">
+        <div class="image">
+          <img draggable="false" src="./assets/images/faculdades_escolas/school.jpg" alt="">
+        </div>
+        <div class="content">
+          <h3>Técnico em Informatica para Internet</h3>
+          <p>Instituto Federal do Rio de Janeiro | IFRJ Campus Paulo de Frontin</p>
+          <h4>2015-2017 | Concluído</h4>
+        </div>
+      </div>
+
+    
+    </div>
+  </section>
+  <!-- Fim da seção educação -->
+
+
+  <!-- Início da seção projetos -->
+  <section class="projetos" id="projetos">
+
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Projetos <span>Realizados</span></h2>
+
+    <div class="box-container">
+
+      <!-- <div class="box tilt">
+      <img draggable="false" src="./assets/images/projects/portfolio1.PNG" alt="" />
+      <div class="content">
+        <div class="tag">
+        <h3>Portfolio Website</h3>
+        </div>
+        <div class="desc">
+          <p>Personal portfolio website. Don't need much info sobre it, just scroll down. You're here only!</p>
+          <div class="btns">
+            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="https://github.com/joaovitormp1998/joaovitormp1998/Portfolio-Website" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    </div>
+
+    <div class="viewall">
+      <a href="#projetos" class="btn"><span>Ver Todos</span>
+        <i class="fas fa-arrow-right"></i>
+      </a>
+    </div>
+
+  </section>
+  <!-- Fim da seção projetos -->
+
+  <!-- Início da seção experiência -->
+  <section class="experiencia" id="experiencia">
+
+    <h2 class="heading"><i class="fas fa-briefcase"></i> Experiência </h2>
+
+    <div class="timeline">
+
+
+      <div class="container right">
+        <div class="content">
+          <div class="tag">
+            <h2>TutorCasts</h2>
+          </div>
+          <div class="desc">
+            <h3>Desenvolvedor Full-Stack Junior III</h3>
+            <p>Out 2023 - Fev 2024</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container left">
+        <div class="content">
+          <div class="tag">
+            <h2>NeoClinic Health (Sistema de Gerencimento para Clinicas)</h2>
+          </div>
+          <div class="desc">
+            <h3>Desenvolvedor Full-Stack Plenor</h3>
+            <p>Nov 2022 - Out 2023</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="container left">
+        <div class="content">
+          <div class="tag">
+            <h2>The TEST</h2>
+          </div>
+          <div class="desc">
+            <h3>Desenvolvedor de Aplicativos Móveis | Estágio</h3>
+            <p>Abr 2021 - Mai 2021</p>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="container right">
+        <div class="content">
+          <div class="tag">
+            <h2>Dms Logistics</h2>
+          </div>
+          <div class="desc">
+            <h3>Desenvolvedor Full-Stack | Junior II </h3>
+            <p>Abr 2022 - Out 2022</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container left">
+        <div class="content">
+          <div class="tag">
+            <h2>Dms Logistics</h2>
+          </div>
+          <div class="desc">
+            <h3> Desenvolvimento Full-Stack </h3>
+              <p> Mar 2021 - Abr 2022</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="morebtn">
+      <a href="#experiencia" class="btn"><span>Ver Todos</span>
+        <i class="fas fa-arrow-right"></i>
+      </a>
+    </div>
+
+    </div>
+
+  </section>
+  <!-- Fim da seção experiência -->
+
+  <!-- Início da seção contato -->
+  <section class="contato" id="contato">
+
+    <h2 class="heading"><i class="fas fa-headset"></i> Entre em <span>Contato</span></h2>
+
+    <div class="container">
+      <div class="content">
+        <div class="image-box">
+          <img draggable="false" src="./assets/images/contato1.png" alt="">
+        </div>
+        <form id="contato-form" style="margin-left: 2vw;">
+          <div class="form-group">
+            <div class="field">
+              <input type="text" name="name" placeholder="Nome" required>
+              <i class='fas fa-user'></i>
             </div>
-        </nav>
-    </header>
-    <main>
-        <section class="profile">
-            <img src="path/to/profile-image.jpg" alt="João Monsorres">
-            <h1>João Monsorres</h1>
-            <h2>Desenvolvedor Full-Stack</h2>
-            <p>Como desenvolvedor de software, minha paixão é criar soluções inovadoras e eficazes para desafios tecnológicos no mundo das aplicações web. Com mais de 5 anos de experiência no ramo, adquiri habilidades sólidas em linguagens de programação essenciais, como JavaScript, Python, TypeScript, Java, React, Angular e Laravel.</p>
-            <a href="#" class="download-cv">Baixar currículo</a>
-        </section>
-    </main>
+            <div class="field">
+              <input type="text" name="email" placeholder="E-mail" required>
+              <i class='fas fa-envelope'></i>
+            </div>
+            <div class="field">
+              <input type="text" name="phone" placeholder="Telefone">
+              <i class='fas fa-phone-alt'></i>
+            </div>
+            <div class="message">
+              <textarea placeholder="Mensagem" name="message" required></textarea>
+              <i class="fas fa-comment-dots"></i>
+            </div>
+          </div>
+          <div class="button-area">
+            <button type="submit">
+              Enviar <i class="fa fa-paper-plane"></i></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- Fim da seção contato -->
+
+
+  <!-- Início da seção rodapé -->
+  <section class="footer">
+
+    <div class="box-container">
+
+      <div class="box">
+        <h3>Portfólio de João Vitor</h3>
+        <p>Obrigado por visitar meu site pessoal. Conecte-se comigo nas redes sociais. <br /> <br /> Continue Crescendo
+          🚀. Conecte-se comigo no chat ao vivo!</p>
+      </div>
+
+      <div class="box">
+        <h3>Links Rápidos</h3>
+        <a href="#home"><i class="fas fa-chevron-circle-right"></i> Início</a>
+        <a href="#sobre"><i class="fas fa-chevron-circle-right"></i> Sobre</a>
+        <a href="#habilidades"><i class="fas fa-chevron-circle-right"></i> Habilidades</a>
+        <a href="#educacao"><i class="fas fa-chevron-circle-right"></i> Educação</a>
+        <a href="#projetos"><i class="fas fa-chevron-circle-right"></i> Projetos</a>
+        <a href="#experiencia"><i class="fas fa-chevron-circle-right"></i> Experiência</a>
+      </div>
+
+      <div class="box">
+        <h3>Informações de Contato</h3>
+        <p> <i class="fas fa-phone"></i>+55 24 98138-9459</p>
+        <p> <i class="fas fa-envelope"></i>joaovitormonsores@hotmail.com</p>
+        <p> <i class="fas fa-map-marked-alt"></i>Rio de Janeiro, Miguel Pereira 26910-000</p>
+        <div class="share">
+
+          <a href="https://linkedin.com/in/joao-vitor-monsores-do-nascimento-956340143/" class="fab fa-linkedin"
+            aria-label="LinkedIn" target="_blank"></a>
+          <a href="https://github.com/joaovitormp1998/joaovitormp1998" class="fab fa-github" aria-label="GitHub"
+            target="_blank"></a>
+          <a href="mailto:joaovitormonsores@hotmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="credit">Projetado por <a
+        href="https://linkedin.com/in/joao-vitor-monsores-do-nascimento-956340143/"> João Nascimento</a></h1>
+
+  </section>
+  <!-- Fim da seção rodapé -->
+
+
+  <!-- Botão de rolar para o topo -->
+  <a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+  <!-- Rolagem de volta para o topo -->
+
+
+  <!-- ==== INÍCIO DE TODOS OS PRINCIPAIS JAVASCRIPT CDNS ==== -->
+  <!-- jquery cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- typed.js cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+    integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Links particle.js -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="./assets/js/app.js"></script>
+
+  <!-- Links vanilla tilt.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"
+    integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Animação de revelação de rolagem -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+  <!-- ==== FIM DE TODOS OS PRINCIPAIS JAVASCRIPT CDNS ==== -->
+
+  <script src="./assets/js/script.js"></script>
+
 </body>
+
 </html>
