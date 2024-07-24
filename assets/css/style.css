@@ -2,14 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
 
 * {
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  outline: none;
-  border: none;
-  text-transform: capitalize;
-  transition: all 0.2s linear;
 }
 
 html {
@@ -93,42 +89,54 @@ html::-webkit-scrollbar-thumb {
 
 /* navbar starts */
 header {
-  align-items: center;
-  display: flex;
-  height: 12vh;
-  justify-content: space-between;
-  padding: 0 20rem;
+  background-color: #1a1a1a; /* Dark background */
+  color: white;
+  padding: 1rem;
 }
+
 nav {
-  align-items: center;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 .nav-links {
+  list-style: none;
   display: flex;
-  gap: 15px;
+  gap: 2rem; /* Space between links */
 }
 
 .nav-links li a {
-  color: #fff;
   text-decoration: none;
-  padding: 10px 15px;
-  transition: background-color 0.3s;
+  color: white;
+  font-weight: 500;
 }
 
-.nav-links li a:hover {
-  background-color: #555; /* Slight hover effect */
-  border-radius: 4px;
+/* Toggle Button (adjust as needed for appearance) */
+.toggle-container {
+  /* ...styles for your toggle... */
 }
 
+.toggle svg {
+  fill: white;
+  height: 1.5rem;
+  width: 1.5rem;
+}
 
+/* Social Icons */
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+.social-icons a{
+  color: white;
+  font-size: 1.5rem;
+}
 /* navbar ends */
 
 /* hamburger icon starts*/
