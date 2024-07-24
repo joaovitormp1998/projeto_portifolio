@@ -78,6 +78,13 @@ nav {
   min-height: 100vh; /* Garante que a seção ocupe a altura da tela */
   overflow: hidden;
 }
+.particle {
+  position: absolute;
+  font-size: 24px;
+  color: #00aaff; /* Cor para os ícones */
+  pointer-events: none; /* Ignora eventos do mouse */
+}
+
 
 #particles-js {
   position: absolute;

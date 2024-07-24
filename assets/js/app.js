@@ -1,35 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const particleContainer = document.querySelector('#particles-js');
-
-    // Function to create a particle with a sign
-    function createParticle(x, y) {
-        const particle = document.createElement('div');
-        particle.className = 'particle';
-        particle.innerHTML = '<i class="fas fa-taurus"></i>'; // Taurus sign icon from Font Awesome
-        particle.style.left = `${x}px`;
-        particle.style.top = `${y}px`;
-        particle.style.transform = `translate(-50%, -50%)`;
-        particleContainer.appendChild(particle);
-
-        // Animate particle
-        setTimeout(() => {
-            particle.style.transition = 'all 1s ease-out';
-            particle.style.transform = `translate(-50%, -50%) scale(0.5)`;
-            particle.style.opacity = '0';
-        }, 100);
-
-        // Remove particle after animation
-        setTimeout(() => {
-            particle.remove();
-        }, 1100);
-    }
-
-    // Example of generating particles on mouse move
-    particleContainer.addEventListener('mousemove', function(e) {
-        createParticle(e.clientX, e.clientY);
-    });
-
-    // Initialize particles.js
+    // Inicializar particles.js
     particlesJS('particles-js', {
         "particles": {
             "number": {
@@ -134,5 +104,33 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         },
         "retina_detect": true
+    });
+
+    // Função para criar uma partícula com um ícone
+    function createParticle(x, y) {
+        const particle = document.createElement('div');
+        particle.className = 'particle';
+        particle.innerHTML = '<i class="fas fa-taurus"></i>'; // Ícone de signo de Touro
+        particle.style.left = `${x}px`;
+        particle.style.top = `${y}px`;
+        particle.style.transform = `translate(-50%, -50%)`;
+        document.querySelector('#particles-js').appendChild(particle);
+
+        // Animação da partícula
+        setTimeout(() => {
+            particle.style.transition = 'all 1s ease-out';
+            particle.style.transform = `translate(-50%, -50%) scale(0.5)`;
+            particle.style.opacity = '0';
+        }, 100);
+
+        // Remove partícula após a animação
+        setTimeout(() => {
+            particle.remove();
+        }, 1100);
+    }
+
+    // Gerar partículas no movimento do mouse
+    document.querySelector('#particles-js').addEventListener('mousemove', function(e) {
+        createParticle(e.clientX, e.clientY);
     });
 });
