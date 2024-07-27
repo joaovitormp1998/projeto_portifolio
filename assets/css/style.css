@@ -119,6 +119,7 @@ nav {
   gap: 2rem;
   /* Space between links */
 }
+
 /* ... (outros estilos) ... */
 
 .nav-links li a {
@@ -130,13 +131,15 @@ nav {
 /* Link Ativo */
 .nav-links li.active a,
 .nav-links li a:active {
-  color: #1ABCFE; 
+  color: #1ABCFE;
 }
 
 /* Efeito Hover */
 .nav-links li a:hover {
-  color: #1ABCFE; /* Cor azul no hover */
-  border-bottom: 2px solid #1ABCFE; /* Sublinhado azul (opcional) */
+  color: #1ABCFE;
+  /* Cor azul no hover */
+  border-bottom: 2px solid #1ABCFE;
+  /* Sublinhado azul (opcional) */
 }
 
 
@@ -278,13 +281,15 @@ nav {
 .home .image img:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
-.content
-{
+
+.content {
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 1px solid black; /* Apenas para visualização */
+  border: 1px solid black;
+  /* Apenas para visualização */
 }
+
 .home .content h2 {
   text-align: center;
   font-size: 5rem;
@@ -1507,6 +1512,7 @@ form .button-area {
   align-items: center;
   left: 11.7rem;
 }
+
 /*Inicio do Profile */
 
 .profile-container {
@@ -1524,10 +1530,12 @@ form .button-area {
 .profile {
   text-align: center;
   max-width: 600px;
-  background: rgba(0, 0, 0, 0.8); /* Fundo semi-transparente para a seção do perfil */
+  background: rgba(0, 0, 0, 0.8);
+  /* Fundo semi-transparente para a seção do perfil */
   padding: 20px;
   border-radius: 10px;
-  z-index: 1; /* Garante que o conteúdo fique acima das partículas */
+  z-index: 1;
+  /* Garante que o conteúdo fique acima das partículas */
 }
 
 .home img {
@@ -1562,11 +1570,11 @@ form .button-area {
 }
 
 .content p {
-  font-size: 1,1875em;
+  font-size: 1, 1875em;
   font-weight: 500;
   margin: 20px 0;
   align-items: center;
-  color:#fff;
+  color: #fff;
 }
 
 .content .download-cv {
@@ -1582,4 +1590,55 @@ form .button-area {
 .content .download-cv:hover {
   background: #00aaff;
   color: #fff;
+}
+
+.pointer {
+  display: none;
+}
+
+.cursor-anim-enable * {
+  cursor: none !important;
+}
+
+.cursor-anim-enable .pointer {
+  display: block;
+}
+
+.js-touch .cursor-anim-enable .pointer {
+  display: none;
+}
+
+.pointer {
+  overflow: hidden;
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  left: -100px;
+  top: 50%;
+  z-index: 9999;
+  border: 2px solid #02e0ff;
+  border-radius: 50%;
+  pointer-events: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition-property: border, background, -webkit-transform, -webkit-box-shadow;
+  transition-property: border, background, -webkit-transform, -webkit-box-shadow;
+  -o-transition-property: border, background, transform, box-shadow;
+  transition-property: border, background, transform, box-shadow;
+  transition-property: border, background, transform, box-shadow, -webkit-transform, -webkit-box-shadow;
+  -webkit-transition-duration: .5s;
+  -o-transition-duration: .5s;
+  transition-duration: .5s;
+  -webkit-transition-timing-function: cubic-bezier(.19, .94, .336, 1);
+  -o-transition-timing-function: cubic-bezier(.19, .94, .336, 1);
+  transition-timing-function: cubic-bezier(.19, .94, .336, 1);
+}
+
+body.js-page-out .pointer {
+  -webkit-transform: translate(-50%, -50%) scale(0);
+  -ms-transform: translate(-50%, -50%) scale(0);
+  transform: translate(-50%, -50%) scale(0);
 }
