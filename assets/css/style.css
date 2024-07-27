@@ -1592,6 +1592,9 @@ form .button-area {
   color: #fff;
 }
 
+.cursor-anim-enable .pointer {
+  display: block;
+}
 .pointer {
   display: none;
 }
