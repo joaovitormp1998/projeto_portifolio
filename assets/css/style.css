@@ -278,7 +278,14 @@ nav {
 .home .image img:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
-
+.content
+{
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ajuste conforme necessário */
+  text-align: center;
+  border: 1px solid black; /* Apenas para visualização */
+}
 .home .content h2 {
   font-size: 5rem;
   font-weight: 800;
