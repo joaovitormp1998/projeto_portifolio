@@ -80,24 +80,36 @@ html::-webkit-scrollbar-thumb {
 
 /* pre loader end */
 #minhaImagem {
-  width: 200px;      /* Largura do círculo */
-  height: 200px;     /* Altura do círculo */
-  border-radius: 50%;  /* Cria o formato circular */
-  overflow: hidden;   /* Esconde o conteúdo que ultrapassa o círculo */
-  background-color: white; /* Cor de fundo branca */
-  display: flex;     /* Centraliza a imagem horizontalmente e verticalmente */
+  width: 200px;
+  /* Largura do círculo */
+  height: 200px;
+  /* Altura do círculo */
+  border-radius: 50%;
+  /* Cria o formato circular */
+  overflow: hidden;
+  /* Esconde o conteúdo que ultrapassa o círculo */
+  background-color: white;
+  /* Cor de fundo branca */
+  display: flex;
+  /* Centraliza a imagem horizontalmente e verticalmente */
   justify-content: center;
   align-items: center;
-  margin: 0 auto; /* Centraliza o círculo na página */
+  margin: 0 auto;
+  /* Centraliza o círculo na página */
 }
+
 #minhaImagem img {
-  max-width: 100%;  /* Ocupa toda a largura do contêiner */
-  height: 100%;     /* Ocupa toda a altura do contêiner */
-  object-fit: cover; /* Encaixa a imagem no contêiner, cortando o excesso */
+  max-width: 100%;
+  /* Ocupa toda a largura do contêiner */
+  height: 100%;
+  /* Ocupa toda a altura do contêiner */
+  object-fit: cover;
+  /* Encaixa a imagem no contêiner, cortando o excesso */
 }
+
 /* navbar starts */
 header {
-  background-color:black;
+  background-color: black;
   /* Dark background */
   color: white;
   padding: 1rem;
@@ -448,7 +460,7 @@ nav {
 
 /* sobre section starts */
 .sobre {
-  background:#000;
+  background: #000;
 }
 
 .sobre .row {
@@ -463,6 +475,7 @@ nav {
   text-align: center;
   flex: 1 1 35rem;
 }
+
 .sobre .content h3 {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
@@ -476,6 +489,7 @@ nav {
   background-clip: text;
   text-fill-color: transparent;
 }
+
 .sobre .content p {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
@@ -484,6 +498,7 @@ nav {
   text-align: justify;
 
 }
+
 .sobre .row .image img {
   margin: 4rem;
   width: 30rem;
@@ -508,10 +523,12 @@ nav {
   color: #FFFFFF;
   font-size: 2.5rem;
 }
-.sobre  h2 {
+
+.sobre h2 {
   color: #FFFFFF;
   font-size: 2.5rem;
 }
+
 .sobre .row .content .tag {
   font-size: 1.4rem;
   color: #020133;
@@ -609,16 +626,20 @@ nav {
 /* habilidades section starts */
 .habilidades {
   min-height: 90vh;
-  background: linear-gradient(to bottom, #000, #CCCCCC); /* Transição de branco para cinza claro */
-  color: #000000; /* Texto preto */
+  background: linear-gradient(to bottom, #000, #CCCCCC);
+  /* Transição de branco para cinza claro */
+  color: #000000;
+  /* Texto preto */
 }
 
 .habilidades h1 {
-  color: #000; /* Título dourado */
+  color: #000;
+  /* Título dourado */
 }
 
 .habilidades p {
-  color: #fff; /* Texto cinza escuro */
+  color: #fff;
+  /* Texto cinza escuro */
 }
 
 
@@ -973,115 +994,102 @@ nav {
 /* projetos section ends */
 
 /* experiencia section starts */
-.experiencia .timeline {
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
+/* 
+/* General Styling */
+.experiencia {
+  background-color: #111;
+  color: #fff;
 }
 
-.experiencia .timeline::after {
-  content: "";
+/* Heading */
+.heading {
+  text-align: center;
+  font-size: 2rem; /* Matching your existing style */
+  margin-bottom: 50px;
+}
+
+.heading i { /* If you're using Font Awesome icons */
+  color: #00bcd4;
+  margin-right: 10px;
+}
+
+/* Timeline */
+.timeline {
+  display: flex; /* Use flexbox for better layout control */
+  flex-direction: column; /* Arrange items vertically */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+  position: relative; /* For the timeline line */
+}
+
+.timeline::before { /* Central timeline line */
+  content: '';
   position: absolute;
   width: 6px;
-  background: #020133;
+  background-color: #00bcd4;
   top: 0;
   bottom: 0;
   left: 50%;
-  margin-left: -3px;
-  z-index: -2;
+  transform: translateX(-50%);
 }
 
-.experiencia .container {
-  padding: 10px 40px;
-  position: relative;
-  background-color: inherit;
-  width: 50%;
+/* Timeline Items */
+.container {
+  width: calc(50% - 20px); /* Adjust for margins and padding */
+  margin-bottom: 40px; /* Space between items */
+  position: relative; /* For positioning the circle marker */
 }
 
-/*circles on timeline*/
-.experiencia .container::after {
-  content: "\f0b1";
+.container.left {
+  align-self: flex-start; /* Align left items to the start */
+}
+
+.container.right {
+  align-self: flex-end; /* Align right items to the end */
+}
+
+.container::before { /* Circle timeline marker */
+  content: '';
   position: absolute;
   width: 25px;
   height: 25px;
-  right: -17px;
-  background-color: rgb(255, 255, 255);
-  border: 4px solid #ff9f55;
-  top: 15px;
+  background-color: #fff;
+  border: 4px solid #00bcd4;
   border-radius: 50%;
-  z-index: 100;
-  font-size: 1.89rem;
-  text-align: center;
-  font-weight: 600;
-  color: #02094b;
-  font-family: "Font Awesome\ 5 Free";
+  top: 8px; /* Adjust position as needed */
 }
 
-.experiencia .left {
-  left: 0;
+.container.left::before {
+  right: -17px; /* Adjust to align with the timeline line */
 }
 
-.experiencia .right {
-  left: 50%;
+.container.right::before {
+  left: -17px; /* Adjust to align with the timeline line */
 }
 
-/* arrows pointing right */
-.experiencia .left::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  right: 30px;
-  border: medium solid #f68c09;
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #f68c09;
+.content {
+  background-color: #222;
+  padding: 20px 40px;
+  border-radius: 10px;
 }
 
-/* arrows pointing left  */
-.experiencia .right::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  left: 30px;
-  border: medium solid #f68c09;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent #f68c09 transparent transparent;
-}
-
-.experiencia .right::after {
-  left: -16px;
-}
-
-.experiencia .content {
-  background-color: #f68c09;
-  position: relative;
-  border-radius: 6px;
-}
-
-.experiencia .content .tag {
-  font-size: 1.3rem;
-  padding-top: 1.5rem;
-  padding-left: 1.5rem;
-}
-
-.experiencia .content .desc {
-  margin-left: 1.5rem;
-  padding-bottom: 1rem;
-}
-
-.experiencia .content .desc h3 {
+/* Timeline Content Details */
+.tag h2 {
   font-size: 1.5rem;
-  font-weight: 600;
+  margin-bottom: 5px;
 }
 
-.experiencia .content .desc p {
+.desc h3 {
   font-size: 1.2rem;
+  margin-bottom: 5px;
 }
+
+.desc p {
+  font-size: 0.9rem;
+  color: #999;
+}
+
 
 /* view all button */
 .morebtn {
@@ -1631,6 +1639,7 @@ form .button-area {
 .cursor-anim-enable .pointer {
   display: block;
 }
+
 .pointer {
   display: none;
 }
