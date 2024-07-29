@@ -30,7 +30,7 @@ body {
   padding: 3px 6px;
   margin-right: 10px;
   background-color: #f0f0f0;
-  color: #856e29;
+  color: #000;
   text-decoration: none;
   border-radius: 93px;
   transition: background-color 0.3s ease;
@@ -599,7 +599,7 @@ nav {
 }
 
 .habilidades h1 {
-  color: #FFD700; /* Título dourado */
+  color: #000; /* Título dourado */
 }
 
 .habilidades p {
