@@ -710,7 +710,7 @@ nav {
 
 /* educacao section starts */
 .educacao {
-  background: #e5ecfb;
+  background: linear-gradient(to bottom, #000000, #808080); /* De cinza para preto */
   min-height: 80vh;
 }
 
@@ -780,6 +780,7 @@ nav {
 }
 
 .educacao .box-container .box .content p {
+  color: #000;
   font-size: 1.5rem;
   margin-left: 1rem;
   text-align: left;
@@ -1626,6 +1627,7 @@ form .button-area {
 
 .content .download-cv {
   display: inline-block;
+  font-size: 2rem;
   padding: 10px 20px;
   border: 2px solid #00aaff;
   color: #00aaff;
