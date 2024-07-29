@@ -86,10 +86,25 @@ html::-webkit-scrollbar-thumb {
 }
 
 /* pre loader end */
-
+#minhaImagem {
+  width: 200px;      /* Largura do círculo */
+  height: 200px;     /* Altura do círculo */
+  border-radius: 50%;  /* Cria o formato circular */
+  overflow: hidden;   /* Esconde o conteúdo que ultrapassa o círculo */
+  background-color: white; /* Cor de fundo branca */
+  display: flex;     /* Centraliza a imagem horizontalmente e verticalmente */
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; /* Centraliza o círculo na página */
+}
+#minhaImagem img {
+  max-width: 100%;  /* Ocupa toda a largura do contêiner */
+  height: 100%;     /* Ocupa toda a altura do contêiner */
+  object-fit: cover; /* Encaixa a imagem no contêiner, cortando o excesso */
+}
 /* navbar starts */
 header {
-  background-color: #1a1a1a;
+  background-color:black;
   /* Dark background */
   color: white;
   padding: 1rem;
@@ -1538,12 +1553,7 @@ form .button-area {
   /* Garante que o conteúdo fique acima das partículas */
 }
 
-.home img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 2px solid #00aaff;
-}
+
 
 .content h1 {
   font-family: 'Poppins', sans-serif;

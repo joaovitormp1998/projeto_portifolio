@@ -45,6 +45,8 @@ html::-webkit-scrollbar-thumb {
   background: #420177;
 }
 
+
+
 /* navbar starts */
 header {
   position: fixed;
@@ -57,7 +59,7 @@ header {
   justify-content: space-between;
   padding: 1.7rem 10%;
   height: 6.5rem;
-  background-color: #c00000;
+  background-color:transparent;
   box-shadow: 0 1px 4px rgba(146, 161, 176, .3);
 }
 
