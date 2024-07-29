@@ -594,7 +594,7 @@ nav {
 /* habilidades section starts */
 .habilidades {
   min-height: 90vh;
-  background: linear-gradient(to bottom, #FFFFFF, #CCCCCC); /* Transição de branco para cinza claro */
+  background: linear-gradient(to bottom, #000, #CCCCCC); /* Transição de branco para cinza claro */
   color: #000000; /* Texto preto */
 }
 
