@@ -458,9 +458,7 @@ nav {
 .sobre {
   background: rgb(255, 255, 255);
 }
-.sobre h2 {
-  margin-top: 15px;
-}
+
 .sobre .row {
   display: flex;
   flex-direction: row;
@@ -610,7 +608,6 @@ nav {
 
 
 .habilidades h2 {
-  margin-top: 15px;
   color: #fff;
 }
 
