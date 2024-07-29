@@ -594,8 +594,18 @@ nav {
 /* habilidades section starts */
 .habilidades {
   min-height: 90vh;
-  background: linear-gradient(to bottom, #57059e, #4a00e0);
+  background: linear-gradient(to bottom, #FFFFFF, #CCCCCC); /* Transição de branco para cinza claro */
+  color: #000000; /* Texto preto */
 }
+
+.habilidades h1 {
+  color: #FFD700; /* Título dourado */
+}
+
+.habilidades p {
+  color: #333333; /* Texto cinza escuro */
+}
+
 
 .habilidades h2 {
   color: #fff;

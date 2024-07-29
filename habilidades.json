@@ -1,5 +1,5 @@
 {
-  "front-end": [
+  "Front-end": [
     {
       "name": "Angular",
       "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/external-angular-a-typescript-based-open-source-web-application-framework-logo-shadow-tal-revivo.png"
@@ -61,7 +61,7 @@
       "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
     }
   ],
-  "back-end": [
+  "Back-end": [
     {
       "name": "Python",
       "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
@@ -99,7 +99,7 @@
       "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
     }
   ],
-  "databases": [
+  "Databases": [
     {
       "name": "MongoDB",
       "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
@@ -113,7 +113,7 @@
       "icon": "https://img.icons8.com/color/48/000000/postgreesql.png"
     }
   ],
-  "cloud-services": [
+  "Cloud-services": [
     {
       "name": "AWS",
       "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
@@ -139,7 +139,7 @@
       "icon": "https://img.icons8.com/ios-filled/48/0080FF/digitalocean.png"
     }
   ],
-  "version-control": [
+  "Version-control": [
     {
       "name": "Bitbucket",
       "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/48/external-bitbucket-is-a-web-based-version-control-repository-hosting-service-logo-shadow-tal-revivo.png"
