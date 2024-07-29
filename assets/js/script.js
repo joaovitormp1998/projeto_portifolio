@@ -1,5 +1,6 @@
 $(document).ready(function () {
     console.log("leu o script");
+
     $('#menu').click(function () {
         $(this).toggleClass('fa-times');
         $('.navbar').toggleClass('nav-toggle');
@@ -69,15 +70,7 @@ document.addEventListener('visibilitychange',
     });
 
 
-// <!-- typed js effect starts -->
-var typed = new Typed(".typing-text", {
-    strings: ["Desenvolvedor Full-Stack", "Web Designer", "Desenvolvedor React/React Native", "Desenvolvedor Python/Django", "Desenvolvedor Angular", "Desenvolvedor Kotlin"],
-    loop: true,
-    typeSpeed: 50,
-    backSpeed: 25,
-    backDelay: 500,
-});
-// <!-- typed js effect ends -->
+
 
 async function fetchData(type = "habilidades") {
     let response
