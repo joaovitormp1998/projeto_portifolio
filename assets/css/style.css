@@ -603,7 +603,7 @@ nav {
 }
 
 .habilidades p {
-  color: #333333; /* Texto cinza escuro */
+  color: #fff; /* Texto cinza escuro */
 }
 
 
@@ -612,7 +612,7 @@ nav {
 }
 
 .habilidades .heading span {
-  color: rgb(255, 230, 0);
+  color: #fff;
 }
 
 .habilidades .container {
