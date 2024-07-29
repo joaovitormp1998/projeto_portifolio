@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+    console.log("leu o script");
     $('#menu').click(function () {
         $(this).toggleClass('fa-times');
         $('.navbar').toggleClass('nav-toggle');
@@ -91,6 +91,8 @@ async function fetchData(type = "habilidades") {
 
 async function showHabilidades(habilidades) {
     let habilidadesContainer = document.getElementById("habilidadesContainer");
+    console.log(habilidadesContainer);
+
     let skillHTML = "";
     habilidades.forEach(skill => {
       skillHTML += `
