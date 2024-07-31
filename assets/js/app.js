@@ -10,30 +10,30 @@ particlesJS.load('particles-js', 'particles.json', function() {
 */
 
 document.addEventListener("DOMContentLoaded", function () {
-    // Variável do cursor
-    var cursor = document.querySelector('.pointer');
+  // Variável do cursor
+  var cursor = document.querySelector('.pointer');
 
-    // Atualizar a posição do cursor
-    document.addEventListener('mousemove', function (e) {
+  // Atualizar a posição do cursor
+  document.addEventListener('mousemove', function (e) {
       cursor.style.left = e.clientX + 'px';
       cursor.style.top = e.clientY + 'px';
-    });
+  });
 
-    // Função para ocultar o cursor durante a rolagem
-    var lastScrollY = window.scrollY;
-    window.addEventListener('scroll', function () {
+  // Função para ocultar o cursor durante a rolagem
+  var lastScrollY = window.scrollY;
+  window.addEventListener('scroll', function () {
       if (window.scrollY !== lastScrollY) {
-        cursor.style.opacity = '0';
-        lastScrollY = window.scrollY;
+          cursor.style.opacity = '0';
+          lastScrollY = window.scrollY;
       } else {
-        cursor.style.opacity = '1';
+          cursor.style.opacity = '1';
       }
-    });
+  });
 
-    // Reexibir o cursor ao mover o mouse após a rolagem
-    document.addEventListener('mousemove', function () {
+  // Reexibir o cursor ao mover o mouse após a rolagem
+  document.addEventListener('mousemove', function () {
       cursor.style.opacity = '1';
-    });
+  });
 
     // Parâmetros do Particles.js
     particlesJS('particles-js', {
@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
           }
         },
         size: {
-          value: 3,
+          value: 5,
           random: true,
           anim: {
             enable: false,
@@ -85,10 +85,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         line_linked: {
           enable: true,
-          distance: 150,
+          distance: 250,
           color: '#02e0ff',
           opacity: 0.4,
-          width: 1
+          width: 3
         },
         move: {
           enable: true,
@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", function () {
         events: {
           onhover: {
             enable: true,
-            mode: 'grab'
+            mode: 'trail'
           },
           onclick: {
             enable: true,
@@ -133,8 +133,8 @@ document.addEventListener("DOMContentLoaded", function () {
             speed: 3
           },
           repulse: {
-            distance: 200,
-            duration: 0.4
+            distance: 400,
+            duration: 0.6
           },
           push: {
             particles_nb: 4
@@ -146,5 +146,38 @@ document.addEventListener("DOMContentLoaded", function () {
       },
       retina_detect: true
     });
+
+
+    // Obtém o objeto pJS do Particles.js
+    const pJS = particlesJS.particles;
+
+    // Função para desenhar o rastro
+    function drawTrails() {
+        pJS.forEach((p, index) => {
+            const particle = p.pJS.particles.array[index];
+            const { ctx } = p.pJS;
+
+            // Limpa o rastro anterior
+            ctx.clearRect(0, 0, p.pJS.canvas.w, p.pJS.canvas.h);
+
+            // Redesenha o fundo
+            p.pJS.fn.particlesRefresh();
+
+            // Desenha o rastro
+            ctx.beginPath();
+            ctx.moveTo(particle.x, particle.y);
+            for (let i = 0; i < particle.trail.length; i++) {
+                ctx.lineTo(particle.trail[i].x, particle.trail[i].y);
+            }
+            ctx.lineWidth = particle.radius * 2;
+            ctx.strokeStyle = particle.trail.fillColor;
+            ctx.stroke();
+        });
+
+        requestAnimationFrame(drawTrails);
+    }
+
+    // Inicia o desenho dos rastros
+    drawTrails();
   });
   
