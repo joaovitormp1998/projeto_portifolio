@@ -1662,32 +1662,14 @@ form .button-area {
 }
 
 .pointer {
-  overflow: hidden;
-  width: 30px;
-  height: 30px;
-  position: fixed;
-  left: -100px;
-  top: 50%;
-  z-index: 9999;
-  border: 2px solid #02e0ff;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
-  pointer-events: none;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  -webkit-transition-property: border, background, -webkit-transform, -webkit-box-shadow;
-  transition-property: border, background, -webkit-transform, -webkit-box-shadow;
-  -o-transition-property: border, background, transform, box-shadow;
-  transition-property: border, background, transform, box-shadow;
-  transition-property: border, background, transform, box-shadow, -webkit-transform, -webkit-box-shadow;
-  -webkit-transition-duration: .5s;
-  -o-transition-duration: .5s;
-  transition-duration: .5s;
-  -webkit-transition-timing-function: cubic-bezier(.19, .94, .336, 1);
-  -o-transition-timing-function: cubic-bezier(.19, .94, .336, 1);
-  transition-timing-function: cubic-bezier(.19, .94, .336, 1);
+  background-color: #02e0ff; /* Cor do cursor */
+  position: fixed;
+  z-index: 100; /* Garante que o cursor fique acima das partículas */
+  pointer-events: none; /* Impede que o cursor interfira com outros elementos */
+  transition: opacity 0.3s ease; /* Transição suave para a opacidade */
 }
 
 body.js-page-out .pointer {
